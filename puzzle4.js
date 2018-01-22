@@ -20,3 +20,5 @@ function collectGreenDots() {
     dotsLeft -= 1;
   }
 }
+moveDown5();
+collectGreenDots();
