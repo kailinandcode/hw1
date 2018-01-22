@@ -2,20 +2,20 @@
 //puzzle 1
 //Rudy, the red dot, can perform: up, down, left, right, getColor, and setColor.
 
-var steps = 0
+var steps = 0;
 while (steps < 8) {
-  down（）
-  steps = step + 1
+  down();
+  steps = step + 1;
 }
-var rightMoves = 0
+var rightMoves = 0;
 while (rightMoves < 5) {
-  right（）
+  right();
   rightMoves = rightMoves + 1;
 }
-up（）
-up（）
+up();
+up();
 //collect first green dot
-right（）
-right（）
+right();
+right();
 //collect second green dot
 //program finished
