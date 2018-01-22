@@ -1,18 +1,18 @@
 var steps = 0
 while (steps < 6) {
-  down
+  down（）
   steps = steps + 1
  }
- right 
- right
- right
- up
- up
- right
- right
- down
+ right（）
+ right（）
+ right（）
+ up（）
+ up（）
+ right（）
+ right（）
+ down（）
  //collect first green
- down
- down
+ down（）
+ down（）
  //collect second green
  //program ends
