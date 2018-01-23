@@ -4,3 +4,26 @@
 // if the second colored square is a blue, move right-up
 // if the second colored square is a red, move left-up
 
+function navP6() {
+  right();
+  if (getColor() == "red") {
+    up();
+    up();
+    up();
+    if (getColor() == "red") {
+      left();
+      up();
+    }
+    else {
+      right();
+      up();
+    }
+  }
+  else {
+    down();
+    down();
+    down();
+    left();
+    down();
+  }
+}
