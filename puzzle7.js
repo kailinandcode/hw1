@@ -27,3 +27,5 @@ function skipEveryOther() {
   }
   right();
 }
+
+skipEveryOther();
