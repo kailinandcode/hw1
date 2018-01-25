@@ -27,3 +27,4 @@ function navP6() {
     down();
   }
 }
+navP6();
